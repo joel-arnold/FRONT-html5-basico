@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="recursos/imagenes/favicon.png" type="image/x-icon">
+    <title>Demostración de elementos HTML5</title>
+</head>
+<body>
+    <!-- Elementos Semánticos HTML5 -->
+    <header>
+        <h1>Demostración de elementos HTML5</h1>
+        <nav>
+            <ul>
+                <li><a href="#multimedia">Multimedia</a></li>
+                <li><a href="#formularios">Formularios</a></li>
+                <li><a href="#semantico">Semántico</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="multimedia">
+            <h2>Elementos Multimedia</h2>
+            
+            <article>
+                <h3>Imágenes</h3>
+                <img src="/recursos/imagenes/Bandera con las Malvinas.png" alt="Imagen de muestra" width="300">
+                <figure>
+                    <img src="/recursos/imagenes/Bandera con las Malvinas.png" alt="Muestra de figura" width="250">
+                    <figcaption>Esta es una figura con pie de imagen</figcaption>
+                </figure>
+            </article>
+
+            <article>
+                <h3>Audio</h3>
+                <audio controls>
+                    <source src="/recursos/sonidos/Que viva el futbol.mp3" type="audio/mpeg">
+                    Su navegador no soporta el elemento de audio.
+                </audio>
+            </article>
+
+            <article>
+                <h3>Video</h3>
+                <video width="400" controls>
+                    <source src="/recursos/videos/Bandera flameando.mp4" type="video/mp4">
+                    Su navegador no soporta la etiqueta de video.
+                </video>
+            </article>
+        </section>
+
+        <section id="formularios">
+            <h2>Elementos de formulario HTML5</h2>
+            <form>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="date">Fecha:</label>
+                <input type="date" id="date" name="date">
+                
+                <label for="range">Rango:</label>
+                <input type="range" id="range" name="range" min="0" max="100" value="75">
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section id="semantico">
+            <h2>Elementos semánticos</h2>
+            <aside>
+                <h3>Contenido de barra lateral</h3>
+                <p>Este es un elemento aside</p>
+            </aside>
+            
+            <details>
+                <summary>Haz clic para expandir</summary>
+                <p>Este contenido está oculto por defecto</p>
+            </details>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Demostración HTML5. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
