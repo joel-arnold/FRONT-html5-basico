@@ -1,10 +1,10 @@
-# Demostración de Elementos HTML5
+# Demostración de elementos HTML5
 
-## 📖 Descripción del Proyecto
+## 📖 Descripción del proyecto
 
 Este proyecto fue desarrollado como material educativo para la cátedra **"Desarrollo de Software"** de la **Universidad Tecnológica Nacional - Regional Rosario**. Su objetivo es demostrar de forma práctica y concisa los conceptos básicos y elementos fundamentales de HTML5.
 
-## 🎯 Objetivo Pedagógico
+## 🎯 Objetivo pedagógico
 
 El proyecto está diseñado para que los estudiantes puedan:
 - Comprender la estructura semántica de HTML5
@@ -12,7 +12,7 @@ El proyecto está diseñado para que los estudiantes puedan:
 - Familiarizarse con los nuevos tipos de input en formularios
 - Visualizar elementos semánticos en acción
 
-## 🏗️ Estructura del Proyecto
+## 🏗️ Estructura del proyecto
 
 ```
 clase-20250328/
@@ -31,15 +31,15 @@ clase-20250328/
 └── README.md
 ```
 
-## 🛠️ Tecnologías Utilizadas
+## 🛠️ Tecnologías utilizadas
 
 - **HTML5**: Estructura semántica y elementos multimedia
 - **CSS3**: Estilos básicos para presentación (en línea y solo para acomodar un poco los elementos)
 - **Recursos multimedia**: Imágenes, audio y video locales
 
-## 📋 Contenido Educativo
+## 📋 Contenido educativo
 
-### 1. Elementos Multimedia
+### 1. Elementos multimedia
 - **Imágenes**: Uso de `<img>` y `<figure>` con `<figcaption>`
 - **Audio**: Implementación del elemento `<audio>` con controles
 - **Video**: Uso del elemento `<video>` con múltiples formatos
@@ -51,7 +51,7 @@ clase-20250328/
   - `range` con control deslizante
 - **Atributos**: `required` para validación
 
-### 3. Elementos Semánticos
+### 3. Elementos semánticos
 - **Estructura semántica**: `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<aside>`, `<footer>`
 - **Elementos interactivos**: `<details>` y `<summary>`
 - **Navegación**: Enlaces internos con anclas
@@ -61,7 +61,7 @@ clase-20250328/
 - **Formularios**: Diferentes tipos de input HTML5
 - **Semántico**: Elementos semánticos y estructura
 
-## 🎓 Conceptos HTML5 Demostrados
+## 🎓 Conceptos HTML5 demostrados
 
 ### Semántica
 - Uso correcto de elementos semánticos
@@ -83,7 +83,7 @@ clase-20250328/
 - Mensajes de fallback para compatibilidad
 - Estructura HTML semánticamente correcta
 
-## 📚 Material de Estudio
+## 📚 Material de estudio
 
 Este proyecto cubre los siguientes temas del programa de **Desarrollo de Software**:
 
@@ -95,7 +95,7 @@ Este proyecto cubre los siguientes temas del programa de **Desarrollo de Softwar
 - ✅ Buenas prácticas de desarrollo
 
 
-## 👥 Información Académica
+## 👥 Información académica
 
 **Institución**: Universidad Tecnológica Nacional - Regional Rosario  
 **Cátedra**: Desarrollo de Software  
